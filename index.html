@@ -9,11 +9,12 @@
   <body>
     <div class="daily-sky">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a city.."
             required
+            id="search-form-input"
             class="search-form-input"
           />
           <input type="submit" value="Search" class="search-form-button" />
@@ -22,7 +23,7 @@
       <main>
         <div class="weather-now-data">
           <div>
-            <h1 class="weather-now-city">Lagos</h1>
+            <h1 class="weather-now-city" id="city">Lagos</h1>
             <p class="weather-now-details">
               Monday 09:50, scattered clouds
               <br />
@@ -47,5 +48,6 @@
         <a href="https://dailysky.netlify.app/" target="_blank">Netlify</a>
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
