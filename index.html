@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/index.css" />
-    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>WeatherNow</title>
   </head>
   <body>
@@ -24,7 +24,7 @@
       <main>
         <div class="weather-now-data">
           <div>
-            <h1 class="weather-now-city" id="city">Lagos</h1>
+            <h1 class="weather-now-city" id="city"></h1>
             <p class="weather-now-details">
               Monday 09:50, scattered clouds
               <br />
@@ -33,7 +33,7 @@
           </div>
           <div class="weather-now-temperature">
             <div class="weather-now-temperature-icon">☀️</div>
-            <div class="weather-now-temperature-value">26</div>
+            <div class="weather-now-temperature-value" id="temperature"></div>
             <div class="weather-now-temperature-unit">℃</div>
           </div>
         </div>
