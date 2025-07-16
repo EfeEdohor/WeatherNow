@@ -107,8 +107,8 @@ main {
   justify-content: center;
 }
 
-.weather-now-temperature {
-  padding: 0 10px;
+.weather-forecast-temperature {
+  padding: 0 5px;
 }
 footer {
   font-family: "Nunito", sans-serif;
